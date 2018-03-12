@@ -1,5 +1,5 @@
 div {
-    outline: 1px solid red;
+    outline: px solid red;
 }
 
 .container{
@@ -12,11 +12,17 @@ div {
     height:100px;
     width:100%;
 }
+.logoarea{
+    float:left;
+    height:100px;
+    width:1200px;
+    padding-top:20px;
+}
 
 .logo{
-    width:205px;
-    font-size:2.5rem;
+    font-size:2rem;
     font-weight:bold;
+    float:left;
 }
 
 .slogan{
@@ -27,12 +33,6 @@ div {
     float:left;
 }
 
-.logoarea{
-    float:left;
-    height:100px;
-    width:1200px;
-    padding-top:20px;
-}
 
 .menuarea{
     float:left;
