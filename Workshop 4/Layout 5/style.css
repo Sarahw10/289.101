@@ -1,0 +1,55 @@
+.container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+div{
+    outline: 1px solid black;   
+}
+.header{
+    background-color: blue;
+    height: 200px;
+    width: 920px;
+}
+.logo{
+    background-color: yellow;
+    height: 160px;
+    width: 160px;
+    float: right;
+    margin: 20px;
+}
+.submenu{
+    background-color: red;
+    height: 400px;
+    width: 300px;
+    float: left;
+}
+.content{
+    background-color: red;
+    height: 400px;
+    width: 620px;
+    float: left;
+}
+.smallbox{
+    background-color: yellow;
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.bigbox{
+    background-color: yellow;
+    width: 400px;
+    height: 360px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.footer{
+    background-color: lime;
+    height: 200px;
+    width: 920px;
+    float: left;
+}
