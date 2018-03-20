@@ -1,0 +1,131 @@
+div{
+    outline: 1px solid black;
+}
+.container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    height: 100px;
+    width: 920px;
+    background-color: blue;
+}
+.smallhead{
+    height: 80px;
+    width: 300px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.bighead{
+    height: 80px;
+    width: 590px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.submenu{
+    height: 600px;
+    width: 920px;
+    background-color: lime;
+}
+.content1{
+    height: 500px;
+    width: 920px;
+    background-color: red;
+}
+.bigbox1{
+    height: 170px;
+    width: 900px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.smallbox1{
+    height: 300px;
+    width: 293px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content2{
+    height: 855px;
+    width: 920px;
+    background-color: blue;
+}
+.bigbox2{
+    height: 150px;
+    width: 900px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.smallbox2{
+    height: 217px;
+    width: 217px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content3{
+    height: 700px;
+    width: 920px;
+    background-color: lime;
+}
+.smallbox3{
+    height: 200px;
+    width: 900px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.bigbox3{
+    height: 470px;
+    width: 293px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content4{
+    height: 500px;
+    width: 920px;
+    background-color: red;
+}
+.topbox{
+    height: 100px;
+    width:900px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.bigbox4{
+    height: 370px;
+    width: 596px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.smallbox4{
+    height: 250px;
+    width: 293px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer{
+    height: 100px;
+    width: 920px;
+    background-color: blue;
+}

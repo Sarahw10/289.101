@@ -1,0 +1,42 @@
+.container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    outline: 1px solid black;
+}
+.headerleft{
+    height: 300px;
+    width: 460px;
+    background-color: blue;
+    float: left;
+}
+.submenu{
+    height: 300px;
+    width: 920px;
+    background-color: lime;
+    float: left;
+}
+.content{
+    height: 600px;
+    width: 920px;
+    background-color: red;
+    float: left;
+}
+.smallbox{
+    height: 270px;
+    width: 205px;
+    background-color: yellow;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.bigbox{
+    height: 270px;
+    width: 430px;
+    background-color: yellow;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
