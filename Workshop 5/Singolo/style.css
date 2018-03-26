@@ -34,6 +34,9 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
+.links a:hover{
+    color: #f06c64;
+}
 .salmon{
     color: #f06c64;
 }
@@ -45,4 +48,23 @@ body{
 .banner img{
     max-width: 780px;
     width: 90%;
+}
+.services{
+    color: #666d89;
+    height: 500px;
+}
+@media screen and (max-width: 480px){
+    body{
+        background-color: lime;
+    }
+}
+.nav2{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pics{
+    height: 100px;
+    width: 300px;
+    float: left;
 }
