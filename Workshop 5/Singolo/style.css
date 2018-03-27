@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 div{
-    outline: 1px solid black;
+    outline: 1px solid lime;
 }
 body{
     background-color: #f2f2f2;
@@ -50,7 +50,7 @@ body{
     width: 90%;
 }
 .services{
-    color: #666d89;
+    color: c;
     height: 500px;
 }
 @media screen and (max-width: 480px){
@@ -58,13 +58,66 @@ body{
         background-color: lime;
     }
 }
-.nav2{
-    max-width: 950px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .pics{
-    height: 100px;
-    width: 300px;
+    height: 130px;
+    width: 316px;
     float: left;
+}
+.icon{
+    float:left;
+    margin-top: 20px;
+}
+.para{
+    margin-left: 80px;
+}
+.content{
+    background-color: #2d303a;
+    height: 740px;
+    color: #666d89;
+}
+.links2{
+    font-size: 0.75rem;
+    float: left;
+    color: #666d89;
+}
+.links2 a{
+    color: #666d89;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.links2 a:hover{
+    color: #f2f2f2;
+}
+.content2{
+    color: #666d89;
+    height: 650px;
+}
+.people{
+    width: 316px;
+    height: 200px;
+    float: left;
+}
+.footer{
+    color: #f2f2f2;
+    background-color: #f06c64;
+    height: 500px;
+}
+.contact{
+    width: 300px;
+    height:200px;
+    float: right;
+}
+.footer2{
+    color: #666d89;
+    height: 90px;
+    background-color: #2d303a;
+}
+.copyright{
+    margin-top: 20px;
+    float: left;
+}
+.img{
+    float: right;
+    margin-top: 25px
 }
