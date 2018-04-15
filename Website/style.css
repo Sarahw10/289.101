@@ -14,19 +14,54 @@ body{
 }
 h1{
     font-size: 5rem;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 .links{
-    margin-top: 40px;
-    font-size: 0.75rem;
+    font-size: 1rem;
     float: right;
     color: gray;
 }
 .links a{
-    color: white;
+    color: gray;
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
 }
 .links a:hover{
+    color: black;
+}
+.submenu{
+    height: 450px;
+    width: 600px;
+    background-color: gray;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+}
+p{
     color: gainsboro;
+    margin-top: 0px;
+}
+.content{
+    height: 450px;
+    width: 300px;
+    background-color: gainsboro;
+    float: right;
+    margin-top: 30px;
+}
+.details{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.submenup{
+    height: 500px;
+    width: 950px;
+    background-color: gray;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
 }
