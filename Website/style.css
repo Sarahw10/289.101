@@ -55,17 +55,7 @@ p{
     color: gainsboro;
     margin-top: 0px;
 }
-.content{
-    height: 450px;
-    width: 960px;
-    background-color: gainsboro;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-.ovelapped {
+.overlapped {
     width: 500px;
     background-color: red;
     position: absolute;
@@ -74,18 +64,4 @@ p{
     height: 500px;
     margin-top: 150px;
     margin-left: 10px;
-}
-
-.details{
-    margin-left: 75px;
-    margin-top: 10px;
-}
-.submenup{
-    height: 500px;
-    width: 950px;
-    background-color: gray;
-    margin-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    float: left;
 }
