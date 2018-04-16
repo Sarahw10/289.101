@@ -7,6 +7,11 @@ body{
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+.header{
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
 .nav{
     max-width: 950px;
     margin-left: auto;
@@ -16,11 +21,15 @@ h1{
     font-size: 5rem;
     margin-bottom: 0px;
     margin-top: 10px;
+    margin-left: 30px;
+    color: gainsboro;
 }
 .links{
     font-size: 1rem;
     float: right;
     color: gray;
+    margin-right: 30px;
+    margin-top: 0px;
 }
 .links a{
     color: gray;
@@ -31,27 +40,42 @@ h1{
 .links a:hover{
     color: black;
 }
-.submenu{
+.about{
     height: 450px;
     width: 600px;
     background-color: gray;
     margin-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    float: left;
+    position: relative;
+    z-index: 2;
 }
-}
+
 p{
     color: gainsboro;
     margin-top: 0px;
 }
 .content{
     height: 450px;
-    width: 300px;
+    width: 960px;
     background-color: gainsboro;
-    float: right;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
+
+.ovelapped {
+    width: 500px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
 .details{
     margin-left: 75px;
     margin-top: 10px;
