@@ -53,7 +53,30 @@ h1{
     position: relative;
     z-index: 2;
 }
-
+.aboutdrawing{
+    min-height: 450px;
+    width: 800px;
+    background-color: gray;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float:left;
+    position: relative;
+    z-index: 2;
+}
+.aboutpainting{
+    min-height: 450px;
+    width: 830px;
+    background-color: gray;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float:left;
+    position: relative;
+    z-index: 2;
+}
 p{
     margin-top: 0px;
 }
@@ -62,7 +85,25 @@ p{
     background-color: dimgray;
     position: absolute;
     top: 50px;
-    height: 650px;
+    height: 1250px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.overlapped22 {
+    width: 200px;
+    background-color: dimgray;
+    position: absolute;
+    top: 50px;
+    height: 1650px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.overlapped12 {
+    width: 200px;
+    background-color: dimgray;
+    position: absolute;
+    top: 50px;
+    height: 600px;
     margin-top: 150px;
     margin-left: 40px;
 }
@@ -71,11 +112,47 @@ p{
     background-color: darkgray;
     position: absolute;
     top: 50px;
-    height: 600px;
+    height: 1200px;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+.overlapped23 {
+    width: 900px;
+    background-color: darkgray;
+    position: absolute;
+    top: 50px;
+    height: 1600px;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+.overlapped13 {
+    width: 900px;
+    background-color: darkgray;
+    position: absolute;
+    top: 50px;
+    height: 550px;
     margin-top: 150px;
     margin-left: 10px;
 }
 .overlapped {
+    width: 500px;
+    background-color: gainsboro;
+    position: absolute;
+    top: 50px;
+    height: 900px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+.overlapped92 {
+    width: 500px;
+    background-color: gainsboro;
+    position: absolute;
+    top: 50px;
+    height: 1400px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+.overlapped91 {
     width: 500px;
     background-color: gainsboro;
     position: absolute;
