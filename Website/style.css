@@ -77,6 +77,18 @@ h1{
     position: relative;
     z-index: 2;
 }
+.aboutphotography{
+    min-height: 450px;
+    width: 830px;
+    background-color: gray;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float:left;
+    position: relative;
+    z-index: 2;
+}
 p{
     margin-top: 0px;
 }
@@ -86,6 +98,15 @@ p{
     position: absolute;
     top: 50px;
     height: 1250px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.overlapped92 {
+    width: 200px;
+    background-color: dimgray;
+    position: absolute;
+    top: 50px;
+    height: 1100px;
     margin-top: 150px;
     margin-left: 40px;
 }
@@ -134,6 +155,15 @@ p{
     margin-top: 150px;
     margin-left: 10px;
 }
+.overlapped93 {
+    width: 950px;
+    background-color: darkgray;
+    position: absolute;
+    top: 50px;
+    height: 1050px;
+    margin-top: 150px;
+    margin-left: 10px;
+}
 .overlapped {
     width: 500px;
     background-color: gainsboro;
@@ -143,21 +173,30 @@ p{
     margin-top: 150px;
     margin-left: 500px;
 }
-.overlapped92 {
+.overlapped9 {
     width: 500px;
     background-color: gainsboro;
     position: absolute;
     top: 50px;
-    height: 1400px;
+    height: 900px;
     margin-top: 150px;
     margin-left: 500px;
 }
-.overlapped91 {
+.overlapped1 {
     width: 500px;
     background-color: gainsboro;
     position: absolute;
     top: 50px;
     height: 500px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+.overlapped21 {
+    width: 500px;
+    background-color: gainsboro;
+    position: absolute;
+    top: 50px;
+    height: 1400px;
     margin-top: 150px;
     margin-left: 500px;
 }
