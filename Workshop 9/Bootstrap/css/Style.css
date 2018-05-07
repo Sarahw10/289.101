@@ -1,0 +1,15 @@
+body{
+/*    background-colour: red;*/
+}
+.blue{
+    background-color: deepskyblue;
+    height: 50px;
+}
+.green{
+    background-color: yellowgreen;
+    height: 50px;
+}
+.orange{
+    background-color: orange;
+    height: 500px;
+}
