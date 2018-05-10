@@ -9,7 +9,51 @@ body{
     background-color: yellowgreen;
     height: 50px;
 }
+.green2{
+    background-color: yellowgreen;
+    height: auto;
+}
 .orange{
     background-color: orange;
-    height: 500px;
+    height: auto;
+    float: left;
+    padding: 0px;
+}
+.red{
+    background-color: darkred;
+    height: auto;
+    float: left;
+}
+.red2{
+    background-color: darkred;
+    height: 200px;
+    float: left;
+}
+.grey{
+    background-color: lightgray;
+    width: 152px;
+    height: 152px;
+    float: left;
+    margin: 20px;
+}
+.grey2{
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+.grey3{
+    background-color: lightgray;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 20px;
+}
+.pink{
+    background-color: hotpink;
+    height: 80px;
+    width: 300px;
+    float: left;
+    margin: 20px;
 }
