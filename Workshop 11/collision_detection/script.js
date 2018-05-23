@@ -21,7 +21,7 @@ puck.style.left = puck_x + 'px';
 
 function logCoordinates(){
     console.log('x=' + puck_x + 'y=' + puck_y)
-}
+    }
 
 function checkCollision(){
     if (puck_x >= 250 && puck_x <= 350 && puck_y >= 140 && puck_y <= 240){
@@ -30,9 +30,22 @@ function checkCollision(){
     else gap.style.backgroundColor= 'white';
     }
 
-function teleport(){
-    if (puck_x >=20 && puck_x <= 600 && puck_y >= 0 && puck_y <= 400){
-        
+function puckBigger(){
+    if (puck_x >= 450 && puck_x <= 520 && puck_y >= 250 && puck_y <= 320){
+        puck.style.height= '20px';
+        puck.style.width= '20px';
+    }
+    else puck.style.height= '10px';
+        puck.style.width= '10px';
+    }
+
+function puckSmaller(){
+    if (puck_x >= 140 && puck_x <= 100 && puck_y >= 50 && puck_y <= 90){
+        puck.style.height= '5px';
+        puck.style.width= '5px';
+    }
+    else puck.style.height= '10px';
+        puck.style.width= '10px';
     }
 
 //move left
@@ -40,9 +53,8 @@ document.getElementById('left').addEventListener('click', function(){
     puck_x -= speed;
     puck.style.left = puck_x + 'px';
     logCoordinates();
-    checkCollision();
-    teleport();
-    
+    puckBigger();
+    puckSmaller();
 })
 
 // move right
@@ -51,7 +63,8 @@ document.getElementById('right').addEventListener('click', function(){
     puck.style.left = puck_x + 'px';
     logCoordinates();
     checkCollision();
-    teleport();
+    puckBigger();
+    puckSmaller();
 })
 
 // move up
@@ -60,7 +73,8 @@ document.getElementById('up').addEventListener('click', function(){
     puck.style.top = puck_y + 'px';
     logCoordinates();
     checkCollision();
-    teleport();
+    puckBigger();
+    puckSmaller();
 })
 
 // move down
@@ -69,5 +83,6 @@ document.getElementById('down').addEventListener('click', function(){
     puck.style.top = puck_y + 'px';
     logCoordinates();
     checkCollision();
-    teleport();
+    puckBigger();
+    puckSmaller();
 })
