@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ACME CORPORATIONS</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #controls {
+            text-align: center;
+            width: 600px;
+            margin: auto;
+            margin-bottom: 10px;
+            }
+
+            #controls a {
+            font-family: sans-serif;
+            display: inline-block;
+            cursor: pointer;
+            padding: 5px;
+            margin: 5px;
+            }
+
+            #controls a:hover {
+            color: red;
+            }
+
+            #bomb {
+            width: 640px;
+            height: 800px;
+            margin: auto;
+            background-image: url(bomb.jpg);
+            background-size: contain;
+            position: relative;
+            }
+            #bang {
+            position: absolute;
+            width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <div class="header">
+                <img src="logo.png">
+                <div class="links">
+                    <a>HOME</a>
+                    &bull;
+                    <a href="services.html">SERVICES</a>
+                    &bull;
+                    <a href="weapons.html">WEAPONS</a>
+                    &bull;
+                    <a href="everyday.html">EVERYDAY</a>
+                    &bull;
+                    <a href="animals.html">ANIMALS</a>
+                    &bull;
+                    <a href="camoflage.html">CAMOFLAGE</a>
+                    &bull;
+                    <a href="helpful.html">HELPFUL</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 subheader">
+                    <p>ACME is a corporation which manufactures many different products with many different purposes. From its early beginnings providing corks and flypaper to bug collectors to supplying Wile E Coyote with a number of different products including a batman suit, ACME has set the standard for excellence in it’s area. <br> BUY NOW!
+                    </p>
+                </div>
+            </div>
+            <div id="controls">
+                <a id="light_fuse">Light Fuse!</a>
+            </div>
+        </div>
+        <script>
+            // bomb to boom
+    document.getElementById('light_fuse').addEventListener('click', function(){
+        document.getElementById('bomb').src = "bomb.jpg";
+    });
+    document.getElementById('light_fuse').addEventListener('click', function(){
+        document.getElementById('bomb').src = "bang.jpg";
+    });
+        </script>
+    </body>
+</html>        
