@@ -5,37 +5,42 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css">
         <style>
-            #controls {
-            text-align: center;
-            width: 600px;
-            margin: auto;
-            margin-bottom: 10px;
-            }
+                #controls {
+                text-align: center;
+                width: 600px;
+                margin: auto;
+                margin-bottom: 10px;
+              }
 
-            #controls a {
-            font-family: sans-serif;
-            display: inline-block;
-            cursor: pointer;
-            padding: 5px;
-            margin: 5px;
-            }
+              #controls a {
+                font-family: sans-serif;
+                border: 1px solid black;
+                display: inline-block;
+                cursor: pointer;
+                padding: 5px;
+                margin: 5px;
+                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+              }
 
-            #controls a:hover {
-            color: red;
-            }
+              #controls a:hover {
+                color: red;
+              }
 
-            #bomb {
-            width: 640px;
-            height: 800px;
-            margin: auto;
-            background-image: url(bomb.jpg);
-            background-size: contain;
-            position: relative;
-            }
-            #bang {
-            position: absolute;
-            width: 200px;
-            }
+              #blowup {
+                width: 500px;
+                height: 650px;
+                margin: auto;
+                background-image: url(face.svg);
+                background-size: contain;
+                position: relative;
+              }
+
+              #bomb {
+                float: left;
+                margin-top: 10px;
+                margin-left: 0px;
+                width: 500px;
+              }  
         </style>
     </head>
     <body>
@@ -43,7 +48,7 @@
             <div class="header">
                 <img src="logo.png">
                 <div class="links">
-                    <a>HOME</a>
+                    <a><b>HOME</b></a>
                     &bull;
                     <a href="services.html">SERVICES</a>
                     &bull;
@@ -64,18 +69,18 @@
                     </p>
                 </div>
             </div>
+            <script src="script.js"></script>
             <div id="controls">
                 <a id="light_fuse">Light Fuse!</a>
             </div>
+            <div id="blowup">
+                <img id="bomb" src="bomb.jpg" />
+            </div>
+            <div class="footer">
+                <h1>Contact</h1>
+                <h3>Phone: (05) 3445 6777</h3>
+                <h3>Email: acmecorp@sell.com</h3>
+            </div>
         </div>
-        <script>
-            // bomb to boom
-    document.getElementById('light_fuse').addEventListener('click', function(){
-        document.getElementById('bomb').src = "bomb.jpg";
-    });
-    document.getElementById('light_fuse').addEventListener('click', function(){
-        document.getElementById('bomb').src = "bang.jpg";
-    });
-        </script>
     </body>
 </html>        

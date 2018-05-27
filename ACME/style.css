@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
-div{
-    outline: solid 1px black;
-}
 body{
     background-color: white;
     margin: 0;
@@ -9,7 +6,7 @@ body{
 }
 .header{
     background-color: white;
-    min-height: 200px;
+    min-height: 225px;
     width: auto;
 }
 .nav{
@@ -48,4 +45,74 @@ p{
     height: 20px;
     background-color: gainsboro;
     width: auto;
+}
+img{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.footer{
+    background-color: gainsboro;
+    height: 90px;
+    width: auto;
+}
+h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.buynow{
+    font-size: 3rem;
+    float: right;
+    color: black;
+    margin-right: 90px;
+    margin-top: 0px;
+}
+.buynow a{
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.buynow a:hover{
+    color: grey;
+}
+.buylink{
+    height: 60px;
+}
+h2{
+    margin-left: 20px;
+    margin-top:10px;
+}
+.form{
+    height: 20px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: 1px solid black;
+}
+.continue{
+    height: 120px;
+    width: 200px;
+    float: right;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.continuelink{
+    float: right;
+    color: black;
+    font-size: 3rem
+}
+.continuelink a{
+    color: black;
+    text-decoration: none;
+}
+.continuelink a:hover{
+    color: grey;
 }
