@@ -104,7 +104,7 @@ h2{
     margin-left: 10px;
     margin-right: 100px;
 }
-.continuelink{
+.continuelink {
     float: right;
     color: black;
     font-size: 3rem
@@ -112,7 +112,11 @@ h2{
 .continuelink a{
     color: black;
     text-decoration: none;
+    font-weight: lighter;
 }
 .continuelink a:hover{
     color: grey;
+}
+b {
+    font-weight: bolder;
 }
